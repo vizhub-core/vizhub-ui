@@ -1,7 +1,7 @@
 .gitignore
 .prettierignore
 *.swp
-build
+dist
 *.map
 package-lock.json
 *.svg
