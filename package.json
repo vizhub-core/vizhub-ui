@@ -1,6 +1,6 @@
 {
   "name": "vizhub-ui",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "CSS for the next generation VizHub UI.",
   "main": "src/index.js",
   "files": [
