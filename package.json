@@ -1,7 +1,7 @@
 {
   "name": "vizhub-ui",
   "version": "3.1.0",
-  "description": "CSS for the next generation VizHub UI.",
+  "description": "Custom Bootstrap build for VizHub",
   "main": "src/index.js",
   "files": [
     "dist"
@@ -11,7 +11,7 @@
     "minify": "cleancss -o dist/vizhub-ui.min.css dist/vizhub-ui.css",
     "build": "sass scss/vizhub-ui.scss dist/vizhub-ui.css",
     "prettier": "prettier {*.*,**/*.*} --single-quote --write",
-    "prepublishOnly": "npm run build&& npm run minify",
+    "prepublishOnly": "npm run build && npm run minify",
     "ncu": "ncu -u"
   },
   "repository": {
