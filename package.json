@@ -1,6 +1,6 @@
 {
   "name": "vizhub-ui",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Custom Bootstrap build for VizHub",
   "main": "src/index.js",
   "files": [
