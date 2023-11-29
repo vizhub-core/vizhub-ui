@@ -1,8 +1,21 @@
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-  'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
-  'Segoe UI Emoji';
-$font-family-monospace: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
-  Liberation Mono, monospace;
+// https://fonts.google.com/share?selection.family=Dancing+Script:wght@500|Inter:wght@400;700|Poppins:wght@400;600;700
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@400;700&family=Poppins:wght@400;600;700&display=swap");
+$font-family-sans-serif: Inter, sans-serif;
+$font-family-monospace:
+  ui-monospace,
+  SFMono-Regular,
+  SF Mono,
+  Menlo,
+  Consolas,
+  Liberation Mono,
+  monospace;
+
+$headings-font-family: Poppins, sans-serif;
+$h1-font-size: 48px;
+$h2-font-size: 34px;
+$h3-font-size: 30px;
+$h4-font-size: 20px;
+
 $body-color: #161514;
 $primary: #3866e9;
 $border-radius: 0.4rem;
@@ -13,10 +26,10 @@ $modal-content-border-width: 0;
 $light: white;
 
 // For light buttons
-$btn-hover-bg-shade-amount:       10% !default;
-$btn-hover-border-shade-amount:   10% !default;
-$btn-active-bg-shade-amount:      20% !default;
-$btn-active-border-shade-amount:  20% !default;
+$btn-hover-bg-shade-amount: 10% !default;
+$btn-hover-border-shade-amount: 10% !default;
+$btn-active-bg-shade-amount: 20% !default;
+$btn-active-border-shade-amount: 20% !default;
 
 // The outline that appears on focus.
 //$input-btn-focus-width: 1px;
