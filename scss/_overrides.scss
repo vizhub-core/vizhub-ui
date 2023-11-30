@@ -1,8 +1,23 @@
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-  'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
-  'Segoe UI Emoji';
-$font-family-monospace: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
-  Liberation Mono, monospace;
+// https://fonts.google.com/share?selection.family=Dancing+Script:wght@500|Inconsolata:wght@600|Inter:wght@400;700|Poppins:wght@400;600;700
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inconsolata:wght@600&family=Inter:wght@400;700&family=Poppins:wght@400;600;700&display=swap");
+
+$font-family-sans-serif: Inter, sans-serif;
+$font-family-monospace: Inconsolata, monospace;
+$code-font-size: 16px;
+
+$headings-font-family: Poppins, sans-serif;
+$h1-font-size: 48px;
+$h2-font-size: 34px;
+$h3-font-size: 30px;
+$h4-font-size: 20px;
+$h5-font-size: 18px;
+$h6-font-size: 16px;
+$headings-font-weight: 600;
+
+h1 {
+  font-weight: 700;
+}
+
 $body-color: #161514;
 $primary: #3866e9;
 $border-radius: 0.4rem;
@@ -13,16 +28,16 @@ $modal-content-border-width: 0;
 $light: white;
 
 // For light buttons
-$btn-hover-bg-shade-amount:       10% !default;
-$btn-hover-border-shade-amount:   10% !default;
-$btn-active-bg-shade-amount:      20% !default;
-$btn-active-border-shade-amount:  20% !default;
+$btn-hover-bg-shade-amount: 10% !default;
+$btn-hover-border-shade-amount: 10% !default;
+$btn-active-bg-shade-amount: 20% !default;
+$btn-active-border-shade-amount: 20% !default;
 
 // The outline that appears on focus.
 //$input-btn-focus-width: 1px;
 
 // Custom close icon.
-$btn-close-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='12 12 24 24'><path d='M32.97 12.63 24 21.6l-8.97-8.97a1.7 1.7 0 0 0-2.4 2.4L21.6 24l-8.97 8.97a1.7 1.7 0 0 0 2.4 2.4L24 26.4l8.97 8.97a1.7 1.7 0 0 0 2.4-2.4L26.4 24l8.97-8.97a1.7 1.7 0 0 0-2.4-2.4z'/></svg>");
+// $btn-close-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='12 12 24 24'><path d='M32.97 12.63 24 21.6l-8.97-8.97a1.7 1.7 0 0 0-2.4 2.4L21.6 24l-8.97 8.97a1.7 1.7 0 0 0 2.4 2.4L24 26.4l8.97 8.97a1.7 1.7 0 0 0 2.4-2.4L26.4 24l8.97-8.97a1.7 1.7 0 0 0-2.4-2.4z'/></svg>");
 $btn-close-opacity: 1;
 
 // Pills with underlines instead of buttons.

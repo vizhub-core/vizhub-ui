@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -25,6 +25,51 @@
 
     <div class="container-lg">
       <h1>Hello, world!</h1>
+
+      <h1>h1. Bootstrap heading</h1>
+      <h2>h2. Bootstrap heading</h2>
+      <h3>h3. Bootstrap heading</h3>
+      <h4>h4. Bootstrap heading</h4>
+      <h5>h5. Bootstrap heading</h5>
+      <h6>h6. Bootstrap heading</h6>
+
+      <pre>
+import { scaleLinear, extent } from "d3";
+import { marks } from "./marks";
+import { axes } from "./axes";
+import { axisLabels } from "./axisLabels";
+export const scatterPlot = (selection, options) => {
+  const {
+    data,
+    width,
+    height,
+    xValue,
+    yValue,
+    margin: { top, right, bottom, left },
+  } = options;
+
+  const xScale = scaleLinear()
+    .domain(extent(data, xValue))
+    .range([left, width - right]);
+
+  const yScale = scaleLinear()
+    .domain(extent(data, yValue))
+    .range([height - bottom, top]);
+
+  selection
+    .call(marks, { ...options, xScale, yScale })
+    .call(axes, { ...options, xScale, yScale })
+    .call(axisLabels, options);
+};</pre
+      >
+
+      <p>
+        Sit pretium quam sit ut. Morbi habitant nulla risus velit sodales
+        penatibus auctor. Quam tortor orci facilisis vestibulum id tortor et.Sit
+        pretium quam sit ut. Morbi habitant nulla risus velit sodales penatibus
+        auctor. Quam tortor orci facilisis vestibulum id tortor et.Sit pretium
+        quam sit ut.
+      </p>
       <button
         type="button"
         class="btn btn-primary"
@@ -42,7 +87,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
+              <h4 class="modal-title">Modal title</h4>
               <button
                 type="button"
                 class="btn-close"
