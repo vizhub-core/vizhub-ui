@@ -1,6 +1,26 @@
-// https://fonts.google.com/share?selection.family=Inter:wght@400;500;700|Poppins:wght@400;600;700|Roboto+Mono
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&family=Roboto+Mono&display=swap");
-
+// VizHub Fonts:
+//  * Inter: https://fonts.google.com/specimen/Inter
+//    * Inter is the default font for VizHub.
+//    * It is used for body text, buttons, and various UI elements.
+//    * 400;500;700 weights are used for various things
+//    * 400 is used for body text
+//    * 500 is used for smaller muted text and links
+//    * 700 is used for large buttons
+//    * TODO verify we need all 3 weights
+//  * Poppins: https://fonts.google.com/specimen/Poppins
+//    * Poppins is used for headings.
+//    * 400;600;700 weights are used for various things
+//    * 400 is used for lede
+//    * 600 is used for h2, h3, and h4
+//    * 700 is used for h1
+//    * TODO verify we need all 3 weights
+//  * Roboto Mono: https://fonts.google.com/specimen/Roboto+Mono
+//    * Roboto Mono is used for code.
+//    * 400 weight is used for code.
+//    * 500 weight is used in the sidebar and in tabs.
+//    * 500 weight italic is used for transient tabs.
+// https://fonts.google.com/share?selection.family=Inter:wght@400;500;700|Poppins:wght@400;600;700|Roboto+Mono:ital,wght@0,400;0,500;1,500
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&family=Roboto+Mono:ital,wght@0,400;0,500;1,500&display=swap");
 $font-family-sans-serif: Inter, sans-serif;
 $font-family-monospace: "Roboto Mono", monospace;
 $code-font-size: 16px;
