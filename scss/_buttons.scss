@@ -1,0 +1,18 @@
+// Custom text colors for specific buttons::after
+.btn-secondary,
+.btn-secondary:hover {
+  color: #3866e9;
+}
+
+.btn-outline-secondary,
+.btn-outline-secondary:hover {
+  color: #ffffff;
+  border: 1px solid #e0e8ff;
+}
+.btn-outline-secondary:hover {
+  background-color: #e0e8ff2a;
+}
+
+.btn-success {
+  color: #576786;
+}

@@ -40,9 +40,14 @@ h1 {
 
 $body-color: #161514;
 $primary: #3866e9;
-$border-radius: 0.4rem;
+$secondary: #e0e8ff;
+$success: #d7f6dc;
+
+$border-radius: 4px;
 $input-bg: transparent;
 $modal-content-border-width: 0;
+
+$btn-font-weight: 500;
 
 // For white "invisible" buttons.
 $light: white;

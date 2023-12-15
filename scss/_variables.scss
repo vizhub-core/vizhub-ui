@@ -28,4 +28,24 @@
   --vh-font-family-monospace: #{$font-family-monospace};
   --vh-h3-font-size: #{$h3-font-size};
   --vh-small-font-size: #{$small-font-size};
+
+  // Colors from the Figma color pallette.
+  // See https://www.figma.com/file/GEvjzvc4WMO70PtLg5qDHI/New-Work?type=design&node-id=177-7725&mode=design&t=bWYHUJGJDjHcTQHb-0
+  --vh-color-action-01: #3866e9;
+  --vh-color-action-02: #022a9f;
+  --vh-color-action-03: #e0e8ff;
+  --vh-color-warning-01: #d42a68;
+  --vh-color-warning-02: #ffeff2;
+  --vh-color-caution-01: #ffa800;
+  --vh-color-caution-02: #fff4df;
+  --vh-color-success-01: #36bb4a;
+  --vh-color-success-02: #d7f6dc;
+  --vh-color-neutral-01: #1f2022;
+  --vh-color-neutral-02: #202e46;
+  --vh-color-neutral-03: #576786;
+  --vh-color-neutral-04: #bdc7dc;
+  --vh-color-rule-01: #e6eaf2;
+  --vh-color-background-01: #f6eee3;
+  --vh-color-background-02: #efe7dc;
+  --vh-color-background-03: #faf5ef;
 }
