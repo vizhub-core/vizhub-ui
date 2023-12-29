@@ -38,6 +38,10 @@ h1 {
   font-weight: 700;
 }
 
+.form-label {
+  font-weight: 500;
+}
+
 $body-color: #161514;
 $primary: #3866e9;
 $secondary: #e0e8ff;
@@ -45,7 +49,9 @@ $success: #d7f6dc;
 
 $border-radius: 4px;
 $input-bg: transparent;
+
 $modal-content-border-width: 0;
+$modal-inner-padding: 20px;
 
 $btn-font-weight: 500;
 
