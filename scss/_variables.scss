@@ -34,7 +34,11 @@
   --vh-color-action-01: #3866e9;
   --vh-color-action-02: #022a9f;
   --vh-color-action-03: #e0e8ff;
-  --vh-color-warning-01: #d42a68;
+  // Old - too bright --vh-color-warning-01: #ff006b
+  // New - too dark --vh-color-warning-01: #d42a68;
+  // Mid-way point - just right
+  --vh-color-warning-01: #eb1c69;
+
   --vh-color-warning-02: #ffeff2;
   --vh-color-caution-01: #ffa800;
   --vh-color-caution-02: #fff4df;
