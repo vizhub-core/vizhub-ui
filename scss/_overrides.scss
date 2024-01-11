@@ -87,3 +87,11 @@ $dark: black;
 $dropdown-link-color: #161514;
 $navbar-nav-link-padding-x: 0.75rem;
 $navbar-padding-y: 0.25rem;
+
+/* 
+ * Prevents a flash of a vertical scrollbar
+ * when a tooltip is triggered.
+ */
+.tooltip {
+  position: fixed;
+}
