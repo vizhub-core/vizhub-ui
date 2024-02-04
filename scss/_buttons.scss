@@ -15,3 +15,18 @@
 .btn-success {
   color: #576786;
 }
+
+.icon-button {
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.icon-button-light:hover {
+  background-color: var(--vh-color-hover-light);
+}
+.icon-button-dark:hover {
+  background-color: var(--vh-color-hover-dark);
+}
