@@ -30,3 +30,10 @@
 .icon-button-dark:hover {
   background-color: var(--vh-color-hover-dark);
 }
+
+.icon-button-light:active {
+  background-color: var(--vh-color-active-light);
+}
+.icon-button-dark:active {
+  background-color: var(--vh-color-active-dark);
+}
